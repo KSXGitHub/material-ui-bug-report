@@ -17,5 +17,5 @@ npm run dev # next dev
 ### Doesn't work
 
 ```sh
-node index.js
+node server.js
 ```
