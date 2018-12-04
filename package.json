@@ -8,7 +8,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "start-server": "node server.js"
+    "start-server": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -20,9 +22,11 @@
     "material-ui": "^1.0.0-beta.29",
     "next": "^4.2.3",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.1",
+    "snyk": "^1.114.0"
   },
   "engine": {
     "node": ">= 8.9.0"
-  }
+  },
+  "snyk": true
 }
